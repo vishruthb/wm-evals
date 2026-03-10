@@ -1,0 +1,4593 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-03-10T04:44:51.026166+00:00",
+  "repo_root": ".",
+  "dataset_root": "data_subset",
+  "pair_mode": "reference_vs_wangame",
+  "sample_count": 60,
+  "scenario_summaries": [
+    {
+      "scenario": "1_wasd_only",
+      "n_samples": 10,
+      "case_ids": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "scenario": "camera",
+      "n_samples": 10,
+      "case_ids": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "scenario": "camera4hold_alpha1",
+      "n_samples": 10,
+      "case_ids": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "scenario": "fully_random",
+      "n_samples": 10,
+      "case_ids": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "scenario": "wasd4holdrandview_simple_1key1mouse1",
+      "n_samples": 10,
+      "case_ids": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10"
+      ]
+    },
+    {
+      "scenario": "wasdonly_alpha1",
+      "n_samples": 10,
+      "case_ids": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10"
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "sample_id": "1_wasd_only/01",
+      "scenario": "1_wasd_only",
+      "case_id": "01",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/1_wasd_only/01.mp4",
+      "generated_video": "data_subset/1_wasd_only/01_wangame.mp4",
+      "preview_image": "data_subset/1_wasd_only/01.jpg",
+      "action_path": "data_subset/1_wasd_only/01_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "W"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: W"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: W"
+    },
+    {
+      "sample_id": "1_wasd_only/02",
+      "scenario": "1_wasd_only",
+      "case_id": "02",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/1_wasd_only/02.mp4",
+      "generated_video": "data_subset/1_wasd_only/02_wangame.mp4",
+      "preview_image": "data_subset/1_wasd_only/02.jpg",
+      "action_path": "data_subset/1_wasd_only/02_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "S"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "S"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** S\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: S"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** S\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: S"
+    },
+    {
+      "sample_id": "1_wasd_only/03",
+      "scenario": "1_wasd_only",
+      "case_id": "03",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/1_wasd_only/03.mp4",
+      "generated_video": "data_subset/1_wasd_only/03_wangame.mp4",
+      "preview_image": "data_subset/1_wasd_only/03.jpg",
+      "action_path": "data_subset/1_wasd_only/03_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "D"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: D"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: D"
+    },
+    {
+      "sample_id": "1_wasd_only/04",
+      "scenario": "1_wasd_only",
+      "case_id": "04",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/1_wasd_only/04.mp4",
+      "generated_video": "data_subset/1_wasd_only/04_wangame.mp4",
+      "preview_image": "data_subset/1_wasd_only/04.jpg",
+      "action_path": "data_subset/1_wasd_only/04_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "idle / unclear",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "idle"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** idle / unclear\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: idle"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** idle / unclear\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: idle"
+    },
+    {
+      "sample_id": "1_wasd_only/05",
+      "scenario": "1_wasd_only",
+      "case_id": "05",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/1_wasd_only/05.mp4",
+      "generated_video": "data_subset/1_wasd_only/05_wangame.mp4",
+      "preview_image": "data_subset/1_wasd_only/05.jpg",
+      "action_path": "data_subset/1_wasd_only/05_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "S"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "S"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** S\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: S"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** S\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: S"
+    },
+    {
+      "sample_id": "1_wasd_only/06",
+      "scenario": "1_wasd_only",
+      "case_id": "06",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/1_wasd_only/06.mp4",
+      "generated_video": "data_subset/1_wasd_only/06_wangame.mp4",
+      "preview_image": "data_subset/1_wasd_only/06.jpg",
+      "action_path": "data_subset/1_wasd_only/06_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "D"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: D"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: D"
+    },
+    {
+      "sample_id": "1_wasd_only/07",
+      "scenario": "1_wasd_only",
+      "case_id": "07",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/1_wasd_only/07.mp4",
+      "generated_video": "data_subset/1_wasd_only/07_wangame.mp4",
+      "preview_image": "data_subset/1_wasd_only/07.jpg",
+      "action_path": "data_subset/1_wasd_only/07_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "W"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: W"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: W"
+    },
+    {
+      "sample_id": "1_wasd_only/08",
+      "scenario": "1_wasd_only",
+      "case_id": "08",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/1_wasd_only/08.mp4",
+      "generated_video": "data_subset/1_wasd_only/08_wangame.mp4",
+      "preview_image": "data_subset/1_wasd_only/08.jpg",
+      "action_path": "data_subset/1_wasd_only/08_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "D"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: D"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: D"
+    },
+    {
+      "sample_id": "1_wasd_only/09",
+      "scenario": "1_wasd_only",
+      "case_id": "09",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/1_wasd_only/09.mp4",
+      "generated_video": "data_subset/1_wasd_only/09_wangame.mp4",
+      "preview_image": "data_subset/1_wasd_only/09.jpg",
+      "action_path": "data_subset/1_wasd_only/09_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "W"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: W"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: W"
+    },
+    {
+      "sample_id": "1_wasd_only/10",
+      "scenario": "1_wasd_only",
+      "case_id": "10",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/1_wasd_only/10.mp4",
+      "generated_video": "data_subset/1_wasd_only/10_wangame.mp4",
+      "preview_image": "data_subset/1_wasd_only/10.jpg",
+      "action_path": "data_subset/1_wasd_only/10_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "W"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: W"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-3.08s`: W"
+    },
+    {
+      "sample_id": "camera/01",
+      "scenario": "camera",
+      "case_id": "01",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera/01.mp4",
+      "generated_video": "data_subset/camera/01_wangame.mp4",
+      "preview_image": "data_subset/camera/01.jpg",
+      "action_path": "data_subset/camera/01_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          -0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+    },
+    {
+      "sample_id": "camera/02",
+      "scenario": "camera",
+      "case_id": "02",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera/02.mp4",
+      "generated_video": "data_subset/camera/02_wangame.mp4",
+      "preview_image": "data_subset/camera/02.jpg",
+      "action_path": "data_subset/camera/02_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          -0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+    },
+    {
+      "sample_id": "camera/03",
+      "scenario": "camera",
+      "case_id": "03",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera/03.mp4",
+      "generated_video": "data_subset/camera/03_wangame.mp4",
+      "preview_image": "data_subset/camera/03.jpg",
+      "action_path": "data_subset/camera/03_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          -0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+    },
+    {
+      "sample_id": "camera/04",
+      "scenario": "camera",
+      "case_id": "04",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera/04.mp4",
+      "generated_video": "data_subset/camera/04_wangame.mp4",
+      "preview_image": "data_subset/camera/04.jpg",
+      "action_path": "data_subset/camera/04_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          -0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+    },
+    {
+      "sample_id": "camera/05",
+      "scenario": "camera",
+      "case_id": "05",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera/05.mp4",
+      "generated_video": "data_subset/camera/05_wangame.mp4",
+      "preview_image": "data_subset/camera/05.jpg",
+      "action_path": "data_subset/camera/05_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          -0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+    },
+    {
+      "sample_id": "camera/06",
+      "scenario": "camera",
+      "case_id": "06",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera/06.mp4",
+      "generated_video": "data_subset/camera/06_wangame.mp4",
+      "preview_image": "data_subset/camera/06.jpg",
+      "action_path": "data_subset/camera/06_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          -0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+    },
+    {
+      "sample_id": "camera/07",
+      "scenario": "camera",
+      "case_id": "07",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera/07.mp4",
+      "generated_video": "data_subset/camera/07_wangame.mp4",
+      "preview_image": "data_subset/camera/07.jpg",
+      "action_path": "data_subset/camera/07_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[+0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[+0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+    },
+    {
+      "sample_id": "camera/08",
+      "scenario": "camera",
+      "case_id": "08",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera/08.mp4",
+      "generated_video": "data_subset/camera/08_wangame.mp4",
+      "preview_image": "data_subset/camera/08.jpg",
+      "action_path": "data_subset/camera/08_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[+0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[+0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+    },
+    {
+      "sample_id": "camera/09",
+      "scenario": "camera",
+      "case_id": "09",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera/09.mp4",
+      "generated_video": "data_subset/camera/09_wangame.mp4",
+      "preview_image": "data_subset/camera/09.jpg",
+      "action_path": "data_subset/camera/09_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          -0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[-0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+    },
+    {
+      "sample_id": "camera/10",
+      "scenario": "camera",
+      "case_id": "10",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera/10.mp4",
+      "generated_video": "data_subset/camera/10_wangame.mp4",
+      "preview_image": "data_subset/camera/10.jpg",
+      "action_path": "data_subset/camera/10_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[+0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[+0.0] | yaw=[+0.1]\n\n**Timeline**\n- `0.00s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+    },
+    {
+      "sample_id": "camera4hold_alpha1/01",
+      "scenario": "camera4hold_alpha1",
+      "case_id": "01",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera4hold_alpha1/01.mp4",
+      "generated_video": "data_subset/camera4hold_alpha1/01_wangame.mp4",
+      "preview_image": "data_subset/camera4hold_alpha1/01.jpg",
+      "action_path": "data_subset/camera4hold_alpha1/01_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          0.0,
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 72,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[+0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=-0.1, yaw=+0.0)\n- `0.04s-0.52s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.48s-1.96s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.96s-2.92s`: mouse(pitch=+0.0, yaw=+0.1)\n- `2.92s-3.08s`: mouse(pitch=+0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[+0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=-0.1, yaw=+0.0)\n- `0.04s-0.52s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.48s-1.96s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.96s-2.92s`: mouse(pitch=+0.0, yaw=+0.1)\n- `2.92s-3.08s`: mouse(pitch=+0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "camera4hold_alpha1/02",
+      "scenario": "camera4hold_alpha1",
+      "case_id": "02",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera4hold_alpha1/02.mp4",
+      "generated_video": "data_subset/camera4hold_alpha1/02_wangame.mp4",
+      "preview_image": "data_subset/camera4hold_alpha1/02.jpg",
+      "action_path": "data_subset/camera4hold_alpha1/02_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 24,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.0, yaw=-0.1)\n- `0.04s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.48s-1.96s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.96s-2.44s`: mouse(pitch=+0.0, yaw=+0.1)\n- `2.44s-2.92s`: mouse(pitch=+0.0, yaw=-0.1)\n- `2.92s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.0, yaw=-0.1)\n- `0.04s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.48s-1.96s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.96s-2.44s`: mouse(pitch=+0.0, yaw=+0.1)\n- `2.44s-2.92s`: mouse(pitch=+0.0, yaw=-0.1)\n- `2.92s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+    },
+    {
+      "sample_id": "camera4hold_alpha1/03",
+      "scenario": "camera4hold_alpha1",
+      "case_id": "03",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera4hold_alpha1/03.mp4",
+      "generated_video": "data_subset/camera4hold_alpha1/03_wangame.mp4",
+      "preview_image": "data_subset/camera4hold_alpha1/03.jpg",
+      "action_path": "data_subset/camera4hold_alpha1/03_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 48,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: mouse(pitch=+0.0, yaw=-0.1)\n- `0.52s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.96s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: mouse(pitch=+0.0, yaw=-0.1)\n- `2.44s-2.92s`: mouse(pitch=+0.1, yaw=+0.0)\n- `2.92s-3.08s`: mouse(pitch=-0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: mouse(pitch=+0.0, yaw=-0.1)\n- `0.52s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.96s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: mouse(pitch=+0.0, yaw=-0.1)\n- `2.44s-2.92s`: mouse(pitch=+0.1, yaw=+0.0)\n- `2.92s-3.08s`: mouse(pitch=-0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "camera4hold_alpha1/04",
+      "scenario": "camera4hold_alpha1",
+      "case_id": "04",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera4hold_alpha1/04.mp4",
+      "generated_video": "data_subset/camera4hold_alpha1/04_wangame.mp4",
+      "preview_image": "data_subset/camera4hold_alpha1/04.jpg",
+      "action_path": "data_subset/camera4hold_alpha1/04_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 12,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.52s`: mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.48s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.52s`: mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.48s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+    },
+    {
+      "sample_id": "camera4hold_alpha1/05",
+      "scenario": "camera4hold_alpha1",
+      "case_id": "05",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera4hold_alpha1/05.mp4",
+      "generated_video": "data_subset/camera4hold_alpha1/05_wangame.mp4",
+      "preview_image": "data_subset/camera4hold_alpha1/05.jpg",
+      "action_path": "data_subset/camera4hold_alpha1/05_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.0, yaw=-0.1)\n- `0.04s-0.52s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.52s-1.00s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.00s-1.48s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.48s-1.96s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.96s-2.44s`: mouse(pitch=+0.1, yaw=+0.0)\n- `2.44s-2.92s`: mouse(pitch=-0.1, yaw=+0.0)\n- `2.92s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.0, yaw=-0.1)\n- `0.04s-0.52s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.52s-1.00s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.00s-1.48s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.48s-1.96s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.96s-2.44s`: mouse(pitch=+0.1, yaw=+0.0)\n- `2.44s-2.92s`: mouse(pitch=-0.1, yaw=+0.0)\n- `2.92s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+    },
+    {
+      "sample_id": "camera4hold_alpha1/06",
+      "scenario": "camera4hold_alpha1",
+      "case_id": "06",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera4hold_alpha1/06.mp4",
+      "generated_video": "data_subset/camera4hold_alpha1/06_wangame.mp4",
+      "preview_image": "data_subset/camera4hold_alpha1/06.jpg",
+      "action_path": "data_subset/camera4hold_alpha1/06_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.48s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.48s-1.96s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.96s-2.44s`: mouse(pitch=+0.0, yaw=+0.1)\n- `2.44s-2.92s`: mouse(pitch=-0.1, yaw=+0.0)\n- `2.92s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.48s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.48s-1.96s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.96s-2.44s`: mouse(pitch=+0.0, yaw=+0.1)\n- `2.44s-2.92s`: mouse(pitch=-0.1, yaw=+0.0)\n- `2.92s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+    },
+    {
+      "sample_id": "camera4hold_alpha1/07",
+      "scenario": "camera4hold_alpha1",
+      "case_id": "07",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera4hold_alpha1/07.mp4",
+      "generated_video": "data_subset/camera4hold_alpha1/07_wangame.mp4",
+      "preview_image": "data_subset/camera4hold_alpha1/07.jpg",
+      "action_path": "data_subset/camera4hold_alpha1/07_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 76,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.52s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.48s-1.96s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: mouse(pitch=+0.0, yaw=-0.1)\n- `2.44s-3.08s`: mouse(pitch=-0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.52s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.48s-1.96s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: mouse(pitch=+0.0, yaw=-0.1)\n- `2.44s-3.08s`: mouse(pitch=-0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "camera4hold_alpha1/08",
+      "scenario": "camera4hold_alpha1",
+      "case_id": "08",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera4hold_alpha1/08.mp4",
+      "generated_video": "data_subset/camera4hold_alpha1/08_wangame.mp4",
+      "preview_image": "data_subset/camera4hold_alpha1/08.jpg",
+      "action_path": "data_subset/camera4hold_alpha1/08_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 12,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.52s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.52s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: mouse(pitch=+0.0, yaw=-0.1)\n- `2.44s-2.92s`: mouse(pitch=-0.1, yaw=+0.0)\n- `2.92s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.52s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.52s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: mouse(pitch=+0.0, yaw=-0.1)\n- `2.44s-2.92s`: mouse(pitch=-0.1, yaw=+0.0)\n- `2.92s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+    },
+    {
+      "sample_id": "camera4hold_alpha1/09",
+      "scenario": "camera4hold_alpha1",
+      "case_id": "09",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera4hold_alpha1/09.mp4",
+      "generated_video": "data_subset/camera4hold_alpha1/09_wangame.mp4",
+      "preview_image": "data_subset/camera4hold_alpha1/09.jpg",
+      "action_path": "data_subset/camera4hold_alpha1/09_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=-0.1, yaw=+0.0)\n- `0.04s-0.52s`: mouse(pitch=+0.0, yaw=-0.1)\n- `0.52s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: mouse(pitch=+0.0, yaw=-0.1)\n- `2.44s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=-0.1, yaw=+0.0)\n- `0.04s-0.52s`: mouse(pitch=+0.0, yaw=-0.1)\n- `0.52s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: mouse(pitch=+0.0, yaw=-0.1)\n- `2.44s-3.08s`: mouse(pitch=+0.0, yaw=+0.1)"
+    },
+    {
+      "sample_id": "camera4hold_alpha1/10",
+      "scenario": "camera4hold_alpha1",
+      "case_id": "10",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/camera4hold_alpha1/10.mp4",
+      "generated_video": "data_subset/camera4hold_alpha1/10_wangame.mp4",
+      "preview_image": "data_subset/camera4hold_alpha1/10.jpg",
+      "action_path": "data_subset/camera4hold_alpha1/10_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "camera-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 48,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 72,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.52s-1.00s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.00s-1.96s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.96s-2.92s`: mouse(pitch=-0.1, yaw=+0.0)\n- `2.92s-3.08s`: mouse(pitch=+0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** camera-only\n**Keys used:** none\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.52s-1.00s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.00s-1.96s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.96s-2.92s`: mouse(pitch=-0.1, yaw=+0.0)\n- `2.92s-3.08s`: mouse(pitch=+0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "fully_random/01",
+      "scenario": "fully_random",
+      "case_id": "01",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/fully_random/01.mp4",
+      "generated_video": "data_subset/fully_random/01_wangame.mp4",
+      "preview_image": "data_subset/fully_random/01.jpg",
+      "action_path": "data_subset/fully_random/01_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "S+A + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "W + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "W+A + mouse(pitch=+0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "S + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "mouse(pitch=+0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "W+D + mouse(pitch=-0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "W + mouse(pitch=-0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: S+A + mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.00s`: W + mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: W+A + mouse(pitch=+0.1, yaw=-0.1)\n- `1.48s-1.96s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `1.96s-2.44s`: mouse(pitch=+0.1, yaw=+0.1)\n- `2.44s-2.92s`: W+D + mouse(pitch=-0.1, yaw=-0.1)\n- `2.92s-3.08s`: W + mouse(pitch=-0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: S+A + mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.00s`: W + mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: W+A + mouse(pitch=+0.1, yaw=-0.1)\n- `1.48s-1.96s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `1.96s-2.44s`: mouse(pitch=+0.1, yaw=+0.1)\n- `2.44s-2.92s`: W+D + mouse(pitch=-0.1, yaw=-0.1)\n- `2.92s-3.08s`: W + mouse(pitch=-0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "fully_random/02",
+      "scenario": "fully_random",
+      "case_id": "02",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/fully_random/02.mp4",
+      "generated_video": "data_subset/fully_random/02_wangame.mp4",
+      "preview_image": "data_subset/fully_random/02.jpg",
+      "action_path": "data_subset/fully_random/02_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "W+D + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "mouse(pitch=-0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "S+A + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "W + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "S + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "W + mouse(pitch=+0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "S + mouse(pitch=+0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "W+A + mouse(pitch=+0.1, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: W+D + mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: mouse(pitch=-0.1, yaw=-0.1)\n- `0.52s-1.00s`: S+A + mouse(pitch=+0.1, yaw=+0.0)\n- `1.00s-1.48s`: W + mouse(pitch=-0.1, yaw=+0.0)\n- `1.48s-1.96s`: S + mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: W + mouse(pitch=+0.1, yaw=+0.1)\n- `2.44s-2.92s`: S + mouse(pitch=+0.1, yaw=-0.1)\n- `2.92s-3.08s`: W+A + mouse(pitch=+0.1, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: W+D + mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: mouse(pitch=-0.1, yaw=-0.1)\n- `0.52s-1.00s`: S+A + mouse(pitch=+0.1, yaw=+0.0)\n- `1.00s-1.48s`: W + mouse(pitch=-0.1, yaw=+0.0)\n- `1.48s-1.96s`: S + mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: W + mouse(pitch=+0.1, yaw=+0.1)\n- `2.44s-2.92s`: S + mouse(pitch=+0.1, yaw=-0.1)\n- `2.92s-3.08s`: W+A + mouse(pitch=+0.1, yaw=+0.1)"
+    },
+    {
+      "sample_id": "fully_random/03",
+      "scenario": "fully_random",
+      "case_id": "03",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/fully_random/03.mp4",
+      "generated_video": "data_subset/fully_random/03_wangame.mp4",
+      "preview_image": "data_subset/fully_random/03.jpg",
+      "action_path": "data_subset/fully_random/03_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "S+D + mouse(pitch=-0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "W + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "S + mouse(pitch=+0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "W+A + mouse(pitch=-0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "mouse(pitch=+0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "mouse(pitch=-0.1, yaw=-0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: S+D + mouse(pitch=-0.1, yaw=-0.1)\n- `0.04s-0.52s`: mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.00s`: W + mouse(pitch=+0.0, yaw=+0.1)\n- `1.00s-1.48s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: S + mouse(pitch=+0.1, yaw=-0.1)\n- `1.96s-2.44s`: W+A + mouse(pitch=-0.1, yaw=-0.1)\n- `2.44s-2.92s`: mouse(pitch=+0.1, yaw=-0.1)\n- `2.92s-3.08s`: mouse(pitch=-0.1, yaw=-0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: S+D + mouse(pitch=-0.1, yaw=-0.1)\n- `0.04s-0.52s`: mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.00s`: W + mouse(pitch=+0.0, yaw=+0.1)\n- `1.00s-1.48s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: S + mouse(pitch=+0.1, yaw=-0.1)\n- `1.96s-2.44s`: W+A + mouse(pitch=-0.1, yaw=-0.1)\n- `2.44s-2.92s`: mouse(pitch=+0.1, yaw=-0.1)\n- `2.92s-3.08s`: mouse(pitch=-0.1, yaw=-0.1)"
+    },
+    {
+      "sample_id": "fully_random/04",
+      "scenario": "fully_random",
+      "case_id": "04",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/fully_random/04.mp4",
+      "generated_video": "data_subset/fully_random/04_wangame.mp4",
+      "preview_image": "data_subset/fully_random/04.jpg",
+      "action_path": "data_subset/fully_random/04_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "mouse(pitch=+0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "S + mouse(pitch=-0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "W + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "W + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "W + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "W + mouse(pitch=+0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "W+A + mouse(pitch=-0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "W+A + mouse(pitch=-0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.1, yaw=-0.1)\n- `0.04s-0.52s`: S + mouse(pitch=-0.1, yaw=+0.1)\n- `0.52s-1.00s`: W + mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: W + mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: W + mouse(pitch=+0.1, yaw=-0.1)\n- `2.44s-2.92s`: W+A + mouse(pitch=-0.1, yaw=+0.1)\n- `2.92s-3.08s`: W+A + mouse(pitch=-0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.1, yaw=-0.1)\n- `0.04s-0.52s`: S + mouse(pitch=-0.1, yaw=+0.1)\n- `0.52s-1.00s`: W + mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: W + mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: W + mouse(pitch=+0.1, yaw=-0.1)\n- `2.44s-2.92s`: W+A + mouse(pitch=-0.1, yaw=+0.1)\n- `2.92s-3.08s`: W+A + mouse(pitch=-0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "fully_random/05",
+      "scenario": "fully_random",
+      "case_id": "05",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/fully_random/05.mp4",
+      "generated_video": "data_subset/fully_random/05_wangame.mp4",
+      "preview_image": "data_subset/fully_random/05.jpg",
+      "action_path": "data_subset/fully_random/05_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "W + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "W+D + mouse(pitch=+0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "D + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "S + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "W+A + mouse(pitch=-0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "W + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "W+A + mouse(pitch=+0.0, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: W + mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: W+D + mouse(pitch=+0.1, yaw=+0.1)\n- `0.52s-1.00s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.00s-1.48s`: D + mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: S + mouse(pitch=-0.1, yaw=+0.0)\n- `1.96s-2.44s`: W+A + mouse(pitch=-0.1, yaw=+0.1)\n- `2.44s-2.92s`: W + mouse(pitch=-0.1, yaw=+0.0)\n- `2.92s-3.08s`: W+A + mouse(pitch=+0.0, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: W + mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: W+D + mouse(pitch=+0.1, yaw=+0.1)\n- `0.52s-1.00s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.00s-1.48s`: D + mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: S + mouse(pitch=-0.1, yaw=+0.0)\n- `1.96s-2.44s`: W+A + mouse(pitch=-0.1, yaw=+0.1)\n- `2.44s-2.92s`: W + mouse(pitch=-0.1, yaw=+0.0)\n- `2.92s-3.08s`: W+A + mouse(pitch=+0.0, yaw=+0.1)"
+    },
+    {
+      "sample_id": "fully_random/06",
+      "scenario": "fully_random",
+      "case_id": "06",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/fully_random/06.mp4",
+      "generated_video": "data_subset/fully_random/06_wangame.mp4",
+      "preview_image": "data_subset/fully_random/06.jpg",
+      "action_path": "data_subset/fully_random/06_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "W+D + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "W+D + mouse(pitch=+0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "A + mouse(pitch=-0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "W + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "W + mouse(pitch=+0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "S+D + mouse(pitch=+0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "S+A + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "W + mouse(pitch=+0.1, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: W+D + mouse(pitch=-0.1, yaw=+0.0)\n- `0.04s-0.52s`: W+D + mouse(pitch=+0.1, yaw=-0.1)\n- `0.52s-1.00s`: A + mouse(pitch=-0.1, yaw=+0.1)\n- `1.00s-1.48s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: W + mouse(pitch=+0.1, yaw=-0.1)\n- `1.96s-2.44s`: S+D + mouse(pitch=+0.1, yaw=+0.1)\n- `2.44s-2.92s`: S+A + mouse(pitch=+0.1, yaw=+0.0)\n- `2.92s-3.08s`: W + mouse(pitch=+0.1, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: W+D + mouse(pitch=-0.1, yaw=+0.0)\n- `0.04s-0.52s`: W+D + mouse(pitch=+0.1, yaw=-0.1)\n- `0.52s-1.00s`: A + mouse(pitch=-0.1, yaw=+0.1)\n- `1.00s-1.48s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: W + mouse(pitch=+0.1, yaw=-0.1)\n- `1.96s-2.44s`: S+D + mouse(pitch=+0.1, yaw=+0.1)\n- `2.44s-2.92s`: S+A + mouse(pitch=+0.1, yaw=+0.0)\n- `2.92s-3.08s`: W + mouse(pitch=+0.1, yaw=+0.1)"
+    },
+    {
+      "sample_id": "fully_random/07",
+      "scenario": "fully_random",
+      "case_id": "07",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/fully_random/07.mp4",
+      "generated_video": "data_subset/fully_random/07_wangame.mp4",
+      "preview_image": "data_subset/fully_random/07.jpg",
+      "action_path": "data_subset/fully_random/07_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "S+D + mouse(pitch=-0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "S + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "W+A + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "A + mouse(pitch=+0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "S + mouse(pitch=+0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "A + mouse(pitch=-0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "mouse(pitch=-0.1, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: S+D + mouse(pitch=-0.1, yaw=-0.1)\n- `0.04s-0.52s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.00s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `1.00s-1.48s`: W+A + mouse(pitch=+0.0, yaw=+0.1)\n- `1.48s-1.96s`: A + mouse(pitch=+0.1, yaw=+0.1)\n- `1.96s-2.44s`: S + mouse(pitch=+0.1, yaw=+0.1)\n- `2.44s-2.92s`: A + mouse(pitch=-0.1, yaw=+0.1)\n- `2.92s-3.08s`: mouse(pitch=-0.1, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: S+D + mouse(pitch=-0.1, yaw=-0.1)\n- `0.04s-0.52s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.00s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `1.00s-1.48s`: W+A + mouse(pitch=+0.0, yaw=+0.1)\n- `1.48s-1.96s`: A + mouse(pitch=+0.1, yaw=+0.1)\n- `1.96s-2.44s`: S + mouse(pitch=+0.1, yaw=+0.1)\n- `2.44s-2.92s`: A + mouse(pitch=-0.1, yaw=+0.1)\n- `2.92s-3.08s`: mouse(pitch=-0.1, yaw=+0.1)"
+    },
+    {
+      "sample_id": "fully_random/08",
+      "scenario": "fully_random",
+      "case_id": "08",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/fully_random/08.mp4",
+      "generated_video": "data_subset/fully_random/08_wangame.mp4",
+      "preview_image": "data_subset/fully_random/08.jpg",
+      "action_path": "data_subset/fully_random/08_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "S+A + mouse(pitch=+0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "W+D + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "S + mouse(pitch=-0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "W + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "S+D + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "W+D + mouse(pitch=+0.1, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: S+A + mouse(pitch=+0.1, yaw=+0.1)\n- `0.04s-0.52s`: W+D + mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.00s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.00s-1.48s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.48s-1.96s`: S + mouse(pitch=-0.1, yaw=+0.1)\n- `1.96s-2.44s`: W + mouse(pitch=+0.1, yaw=+0.0)\n- `2.44s-2.92s`: S+D + mouse(pitch=+0.0, yaw=-0.1)\n- `2.92s-3.08s`: W+D + mouse(pitch=+0.1, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: S+A + mouse(pitch=+0.1, yaw=+0.1)\n- `0.04s-0.52s`: W+D + mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.00s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.00s-1.48s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.48s-1.96s`: S + mouse(pitch=-0.1, yaw=+0.1)\n- `1.96s-2.44s`: W + mouse(pitch=+0.1, yaw=+0.0)\n- `2.44s-2.92s`: S+D + mouse(pitch=+0.0, yaw=-0.1)\n- `2.92s-3.08s`: W+D + mouse(pitch=+0.1, yaw=+0.1)"
+    },
+    {
+      "sample_id": "fully_random/09",
+      "scenario": "fully_random",
+      "case_id": "09",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/fully_random/09.mp4",
+      "generated_video": "data_subset/fully_random/09_wangame.mp4",
+      "preview_image": "data_subset/fully_random/09.jpg",
+      "action_path": "data_subset/fully_random/09_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "W + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "W + mouse(pitch=+0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "W + mouse(pitch=-0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "S+D + mouse(pitch=+0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "W+A + mouse(pitch=+0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `0.52s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.1, yaw=-0.1)\n- `1.48s-1.96s`: W + mouse(pitch=+0.1, yaw=-0.1)\n- `1.96s-2.44s`: W + mouse(pitch=-0.1, yaw=-0.1)\n- `2.44s-2.92s`: S+D + mouse(pitch=+0.1, yaw=-0.1)\n- `2.92s-3.08s`: W+A + mouse(pitch=+0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `0.52s-1.00s`: mouse(pitch=-0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.1, yaw=-0.1)\n- `1.48s-1.96s`: W + mouse(pitch=+0.1, yaw=-0.1)\n- `1.96s-2.44s`: W + mouse(pitch=-0.1, yaw=-0.1)\n- `2.44s-2.92s`: S+D + mouse(pitch=+0.1, yaw=-0.1)\n- `2.92s-3.08s`: W+A + mouse(pitch=+0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "fully_random/10",
+      "scenario": "fully_random",
+      "case_id": "10",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/fully_random/10.mp4",
+      "generated_video": "data_subset/fully_random/10_wangame.mp4",
+      "preview_image": "data_subset/fully_random/10.jpg",
+      "action_path": "data_subset/fully_random/10_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "W + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "S + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "W+D + mouse(pitch=-0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "S+A + mouse(pitch=+0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "W + mouse(pitch=+0.1, yaw=+0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "S + mouse(pitch=+0.1, yaw=-0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "W + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "mouse(pitch=-0.1, yaw=-0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: W + mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: S + mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.00s`: W+D + mouse(pitch=-0.1, yaw=+0.1)\n- `1.00s-1.48s`: S+A + mouse(pitch=+0.1, yaw=+0.1)\n- `1.48s-1.96s`: W + mouse(pitch=+0.1, yaw=+0.1)\n- `1.96s-2.44s`: S + mouse(pitch=+0.1, yaw=-0.1)\n- `2.44s-2.92s`: W + mouse(pitch=-0.1, yaw=+0.0)\n- `2.92s-3.08s`: mouse(pitch=-0.1, yaw=-0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: W + mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: S + mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.00s`: W+D + mouse(pitch=-0.1, yaw=+0.1)\n- `1.00s-1.48s`: S+A + mouse(pitch=+0.1, yaw=+0.1)\n- `1.48s-1.96s`: W + mouse(pitch=+0.1, yaw=+0.1)\n- `1.96s-2.44s`: S + mouse(pitch=+0.1, yaw=-0.1)\n- `2.44s-2.92s`: W + mouse(pitch=-0.1, yaw=+0.0)\n- `2.92s-3.08s`: mouse(pitch=-0.1, yaw=-0.1)"
+    },
+    {
+      "sample_id": "wasd4holdrandview_simple_1key1mouse1/01",
+      "scenario": "wasd4holdrandview_simple_1key1mouse1",
+      "case_id": "01",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/01.mp4",
+      "generated_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/01_wangame.mp4",
+      "preview_image": "data_subset/wasd4holdrandview_simple_1key1mouse1/01.jpg",
+      "action_path": "data_subset/wasd4holdrandview_simple_1key1mouse1/01_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "D + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "A"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "S + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "W + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "S + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "W + mouse(pitch=+0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: D + mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.00s`: A\n- `1.00s-1.48s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.48s-1.96s`: S + mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: W + mouse(pitch=-0.1, yaw=+0.0)\n- `2.44s-2.92s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `2.92s-3.08s`: W + mouse(pitch=+0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: D + mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.00s`: A\n- `1.00s-1.48s`: mouse(pitch=+0.0, yaw=+0.1)\n- `1.48s-1.96s`: S + mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: W + mouse(pitch=-0.1, yaw=+0.0)\n- `2.44s-2.92s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `2.92s-3.08s`: W + mouse(pitch=+0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "wasd4holdrandview_simple_1key1mouse1/02",
+      "scenario": "wasd4holdrandview_simple_1key1mouse1",
+      "case_id": "02",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/02.mp4",
+      "generated_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/02_wangame.mp4",
+      "preview_image": "data_subset/wasd4holdrandview_simple_1key1mouse1/02.jpg",
+      "action_path": "data_subset/wasd4holdrandview_simple_1key1mouse1/02_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "D + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "A + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "W + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "S + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "D + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "W + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0]\n\n**Timeline**\n- `0.00s-0.04s`: D + mouse(pitch=-0.1, yaw=+0.0)\n- `0.04s-0.52s`: A + mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.00s`: W + mouse(pitch=+0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.48s-1.96s`: S + mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: D + mouse(pitch=-0.1, yaw=+0.0)\n- `2.44s-2.92s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `2.92s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0]\n\n**Timeline**\n- `0.00s-0.04s`: D + mouse(pitch=-0.1, yaw=+0.0)\n- `0.04s-0.52s`: A + mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.00s`: W + mouse(pitch=+0.1, yaw=+0.0)\n- `1.00s-1.48s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.48s-1.96s`: S + mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: D + mouse(pitch=-0.1, yaw=+0.0)\n- `2.44s-2.92s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `2.92s-3.08s`: mouse(pitch=+0.0, yaw=-0.1)"
+    },
+    {
+      "sample_id": "wasd4holdrandview_simple_1key1mouse1/03",
+      "scenario": "wasd4holdrandview_simple_1key1mouse1",
+      "case_id": "03",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/03.mp4",
+      "generated_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/03_wangame.mp4",
+      "preview_image": "data_subset/wasd4holdrandview_simple_1key1mouse1/03.jpg",
+      "action_path": "data_subset/wasd4holdrandview_simple_1key1mouse1/03_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "D + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "A + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "A + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "S"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "S + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "S"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "D"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "D + mouse(pitch=+0.0, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** S, A, D\n**Mouse values:** pitch=[+0.0, +0.1] | yaw=[+0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: D + mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: A + mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.00s`: A + mouse(pitch=+0.0, yaw=+0.1)\n- `1.00s-1.48s`: S\n- `1.48s-1.96s`: S + mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: S\n- `2.44s-2.92s`: D\n- `2.92s-3.08s`: D + mouse(pitch=+0.0, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** S, A, D\n**Mouse values:** pitch=[+0.0, +0.1] | yaw=[+0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: D + mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: A + mouse(pitch=+0.1, yaw=+0.0)\n- `0.52s-1.00s`: A + mouse(pitch=+0.0, yaw=+0.1)\n- `1.00s-1.48s`: S\n- `1.48s-1.96s`: S + mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: S\n- `2.44s-2.92s`: D\n- `2.92s-3.08s`: D + mouse(pitch=+0.0, yaw=+0.1)"
+    },
+    {
+      "sample_id": "wasd4holdrandview_simple_1key1mouse1/04",
+      "scenario": "wasd4holdrandview_simple_1key1mouse1",
+      "case_id": "04",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/04.mp4",
+      "generated_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/04_wangame.mp4",
+      "preview_image": "data_subset/wasd4holdrandview_simple_1key1mouse1/04.jpg",
+      "action_path": "data_subset/wasd4holdrandview_simple_1key1mouse1/04_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "A + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "A"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "W + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "S"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "A + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "W"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "A"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "W + mouse(pitch=-0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0]\n\n**Timeline**\n- `0.00s-0.04s`: A + mouse(pitch=+0.0, yaw=-0.1)\n- `0.04s-0.52s`: A\n- `0.52s-1.00s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `1.00s-1.48s`: S\n- `1.48s-1.96s`: A + mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: W\n- `2.44s-2.92s`: A\n- `2.92s-3.08s`: W + mouse(pitch=-0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0]\n\n**Timeline**\n- `0.00s-0.04s`: A + mouse(pitch=+0.0, yaw=-0.1)\n- `0.04s-0.52s`: A\n- `0.52s-1.00s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `1.00s-1.48s`: S\n- `1.48s-1.96s`: A + mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: W\n- `2.44s-2.92s`: A\n- `2.92s-3.08s`: W + mouse(pitch=-0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "wasd4holdrandview_simple_1key1mouse1/05",
+      "scenario": "wasd4holdrandview_simple_1key1mouse1",
+      "case_id": "05",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/05.mp4",
+      "generated_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/05_wangame.mp4",
+      "preview_image": "data_subset/wasd4holdrandview_simple_1key1mouse1/05.jpg",
+      "action_path": "data_subset/wasd4holdrandview_simple_1key1mouse1/05_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "S + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "D + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "W"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "D + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "D + mouse(pitch=+0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `0.04s-0.52s`: mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.00s`: D + mouse(pitch=+0.0, yaw=+0.1)\n- `1.00s-1.48s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.48s-1.96s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.96s-2.44s`: W\n- `2.44s-2.92s`: D + mouse(pitch=+0.0, yaw=-0.1)\n- `2.92s-3.08s`: D + mouse(pitch=+0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `0.04s-0.52s`: mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.00s`: D + mouse(pitch=+0.0, yaw=+0.1)\n- `1.00s-1.48s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.48s-1.96s`: mouse(pitch=+0.0, yaw=-0.1)\n- `1.96s-2.44s`: W\n- `2.44s-2.92s`: D + mouse(pitch=+0.0, yaw=-0.1)\n- `2.92s-3.08s`: D + mouse(pitch=+0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "wasd4holdrandview_simple_1key1mouse1/06",
+      "scenario": "wasd4holdrandview_simple_1key1mouse1",
+      "case_id": "06",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/06.mp4",
+      "generated_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/06_wangame.mp4",
+      "preview_image": "data_subset/wasd4holdrandview_simple_1key1mouse1/06.jpg",
+      "action_path": "data_subset/wasd4holdrandview_simple_1key1mouse1/06_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "A"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "A + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "A + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "W + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "A + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "A + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "A + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "A + mouse(pitch=+0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, A\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: A + mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: A + mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.00s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.00s-1.48s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: A + mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: A + mouse(pitch=-0.1, yaw=+0.0)\n- `2.44s-2.92s`: A + mouse(pitch=+0.0, yaw=+0.1)\n- `2.92s-3.08s`: A + mouse(pitch=+0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, A\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: A + mouse(pitch=+0.0, yaw=+0.1)\n- `0.04s-0.52s`: A + mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.00s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.00s-1.48s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: A + mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: A + mouse(pitch=-0.1, yaw=+0.0)\n- `2.44s-2.92s`: A + mouse(pitch=+0.0, yaw=+0.1)\n- `2.92s-3.08s`: A + mouse(pitch=+0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "wasd4holdrandview_simple_1key1mouse1/07",
+      "scenario": "wasd4holdrandview_simple_1key1mouse1",
+      "case_id": "07",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/07.mp4",
+      "generated_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/07_wangame.mp4",
+      "preview_image": "data_subset/wasd4holdrandview_simple_1key1mouse1/07.jpg",
+      "action_path": "data_subset/wasd4holdrandview_simple_1key1mouse1/07_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "S + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "S"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "S + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "A + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "W + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 76,
+            "label": "S + mouse(pitch=-0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[+0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: S + mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: S\n- `0.52s-1.00s`: S + mouse(pitch=+0.0, yaw=+0.1)\n- `1.00s-1.48s`: A + mouse(pitch=+0.0, yaw=+0.1)\n- `1.48s-1.96s`: W + mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: mouse(pitch=-0.1, yaw=+0.0)\n- `2.44s-3.08s`: S + mouse(pitch=-0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[+0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: S + mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: S\n- `0.52s-1.00s`: S + mouse(pitch=+0.0, yaw=+0.1)\n- `1.00s-1.48s`: A + mouse(pitch=+0.0, yaw=+0.1)\n- `1.48s-1.96s`: W + mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: mouse(pitch=-0.1, yaw=+0.0)\n- `2.44s-3.08s`: S + mouse(pitch=-0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "wasd4holdrandview_simple_1key1mouse1/08",
+      "scenario": "wasd4holdrandview_simple_1key1mouse1",
+      "case_id": "08",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/08.mp4",
+      "generated_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/08_wangame.mp4",
+      "preview_image": "data_subset/wasd4holdrandview_simple_1key1mouse1/08.jpg",
+      "action_path": "data_subset/wasd4holdrandview_simple_1key1mouse1/08_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "A"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "W + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "A + mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "W + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "A"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "W + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "idle"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "W + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "W + mouse(pitch=-0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, A\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: W + mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: A + mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.00s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `1.00s-1.48s`: A\n- `1.48s-1.96s`: W + mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: idle\n- `2.44s-2.92s`: W + mouse(pitch=+0.1, yaw=+0.0)\n- `2.92s-3.08s`: W + mouse(pitch=-0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, A\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: W + mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: A + mouse(pitch=-0.1, yaw=+0.0)\n- `0.52s-1.00s`: W + mouse(pitch=+0.0, yaw=-0.1)\n- `1.00s-1.48s`: A\n- `1.48s-1.96s`: W + mouse(pitch=+0.0, yaw=+0.1)\n- `1.96s-2.44s`: idle\n- `2.44s-2.92s`: W + mouse(pitch=+0.1, yaw=+0.0)\n- `2.92s-3.08s`: W + mouse(pitch=-0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "wasd4holdrandview_simple_1key1mouse1/09",
+      "scenario": "wasd4holdrandview_simple_1key1mouse1",
+      "case_id": "09",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/09.mp4",
+      "generated_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/09_wangame.mp4",
+      "preview_image": "data_subset/wasd4holdrandview_simple_1key1mouse1/09.jpg",
+      "action_path": "data_subset/wasd4holdrandview_simple_1key1mouse1/09_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "S + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "D + mouse(pitch=+0.0, yaw=+0.1)"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "S + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "D + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "W + mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "S + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "A + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "A + mouse(pitch=+0.0, yaw=+0.1)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[+0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: S + mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: D + mouse(pitch=+0.0, yaw=+0.1)\n- `0.52s-1.00s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `1.00s-1.48s`: D + mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: W + mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `2.44s-2.92s`: A + mouse(pitch=+0.0, yaw=-0.1)\n- `2.92s-3.08s`: A + mouse(pitch=+0.0, yaw=+0.1)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[+0.0, +0.1] | yaw=[-0.1, +0.0, +0.1]\n\n**Timeline**\n- `0.00s-0.04s`: S + mouse(pitch=+0.1, yaw=+0.0)\n- `0.04s-0.52s`: D + mouse(pitch=+0.0, yaw=+0.1)\n- `0.52s-1.00s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `1.00s-1.48s`: D + mouse(pitch=+0.0, yaw=-0.1)\n- `1.48s-1.96s`: W + mouse(pitch=+0.1, yaw=+0.0)\n- `1.96s-2.44s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `2.44s-2.92s`: A + mouse(pitch=+0.0, yaw=-0.1)\n- `2.92s-3.08s`: A + mouse(pitch=+0.0, yaw=+0.1)"
+    },
+    {
+      "sample_id": "wasd4holdrandview_simple_1key1mouse1/10",
+      "scenario": "wasd4holdrandview_simple_1key1mouse1",
+      "case_id": "10",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/10.mp4",
+      "generated_video": "data_subset/wasd4holdrandview_simple_1key1mouse1/10_wangame.mp4",
+      "preview_image": "data_subset/wasd4holdrandview_simple_1key1mouse1/10.jpg",
+      "action_path": "data_subset/wasd4holdrandview_simple_1key1mouse1/10_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          -0.1,
+          0.0,
+          0.1
+        ],
+        "mouse_yaw_values": [
+          -0.1,
+          0.0
+        ],
+        "control_mode": "keyboard + camera",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "mouse(pitch=-0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "idle"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "mouse(pitch=+0.1, yaw=+0.0)"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "D"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "D + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "S + mouse(pitch=+0.0, yaw=-0.1)"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "S"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "A + mouse(pitch=-0.1, yaw=+0.0)"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=-0.1, yaw=+0.0)\n- `0.04s-0.52s`: idle\n- `0.52s-1.00s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.00s-1.48s`: D\n- `1.48s-1.96s`: D + mouse(pitch=+0.0, yaw=-0.1)\n- `1.96s-2.44s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `2.44s-2.92s`: S\n- `2.92s-3.08s`: A + mouse(pitch=-0.1, yaw=+0.0)"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard + camera\n**Keys used:** S, A, D\n**Mouse values:** pitch=[-0.1, +0.0, +0.1] | yaw=[-0.1, +0.0]\n\n**Timeline**\n- `0.00s-0.04s`: mouse(pitch=-0.1, yaw=+0.0)\n- `0.04s-0.52s`: idle\n- `0.52s-1.00s`: mouse(pitch=+0.1, yaw=+0.0)\n- `1.00s-1.48s`: D\n- `1.48s-1.96s`: D + mouse(pitch=+0.0, yaw=-0.1)\n- `1.96s-2.44s`: S + mouse(pitch=+0.0, yaw=-0.1)\n- `2.44s-2.92s`: S\n- `2.92s-3.08s`: A + mouse(pitch=-0.1, yaw=+0.0)"
+    },
+    {
+      "sample_id": "wasdonly_alpha1/01",
+      "scenario": "wasdonly_alpha1",
+      "case_id": "01",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasdonly_alpha1/01.mp4",
+      "generated_video": "data_subset/wasdonly_alpha1/01_wangame.mp4",
+      "preview_image": "data_subset/wasdonly_alpha1/01.jpg",
+      "action_path": "data_subset/wasdonly_alpha1/01_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "A"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "D"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "S"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 48,
+            "label": "A"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "S"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "A"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "W"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: A\n- `0.04s-0.52s`: D\n- `0.52s-1.00s`: S\n- `1.00s-1.96s`: A\n- `1.96s-2.44s`: S\n- `2.44s-2.92s`: A\n- `2.92s-3.08s`: W"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: A\n- `0.04s-0.52s`: D\n- `0.52s-1.00s`: S\n- `1.00s-1.96s`: A\n- `1.96s-2.44s`: S\n- `2.44s-2.92s`: A\n- `2.92s-3.08s`: W"
+    },
+    {
+      "sample_id": "wasdonly_alpha1/02",
+      "scenario": "wasdonly_alpha1",
+      "case_id": "02",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasdonly_alpha1/02.mp4",
+      "generated_video": "data_subset/wasdonly_alpha1/02_wangame.mp4",
+      "preview_image": "data_subset/wasdonly_alpha1/02.jpg",
+      "action_path": "data_subset/wasdonly_alpha1/02_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 24,
+            "label": "W"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 48,
+            "label": "S"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "W"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "A"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "D"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-1.00s`: W\n- `1.00s-1.96s`: S\n- `1.96s-2.44s`: W\n- `2.44s-2.92s`: A\n- `2.92s-3.08s`: D"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-1.00s`: W\n- `1.00s-1.96s`: S\n- `1.96s-2.44s`: W\n- `2.44s-2.92s`: A\n- `2.92s-3.08s`: D"
+    },
+    {
+      "sample_id": "wasdonly_alpha1/03",
+      "scenario": "wasdonly_alpha1",
+      "case_id": "03",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasdonly_alpha1/03.mp4",
+      "generated_video": "data_subset/wasdonly_alpha1/03_wangame.mp4",
+      "preview_image": "data_subset/wasdonly_alpha1/03.jpg",
+      "action_path": "data_subset/wasdonly_alpha1/03_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "D"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 24,
+            "label": "A"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "D"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "A"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "S"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "D"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "S"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: D\n- `0.04s-1.00s`: A\n- `1.00s-1.48s`: D\n- `1.48s-1.96s`: A\n- `1.96s-2.44s`: S\n- `2.44s-2.92s`: D\n- `2.92s-3.08s`: S"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: D\n- `0.04s-1.00s`: A\n- `1.00s-1.48s`: D\n- `1.48s-1.96s`: A\n- `1.96s-2.44s`: S\n- `2.44s-2.92s`: D\n- `2.92s-3.08s`: S"
+    },
+    {
+      "sample_id": "wasdonly_alpha1/04",
+      "scenario": "wasdonly_alpha1",
+      "case_id": "04",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasdonly_alpha1/04.mp4",
+      "generated_video": "data_subset/wasdonly_alpha1/04_wangame.mp4",
+      "preview_image": "data_subset/wasdonly_alpha1/04.jpg",
+      "action_path": "data_subset/wasdonly_alpha1/04_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 12,
+            "label": "D"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "W"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "D"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "S"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 72,
+            "label": "A"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "D"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.52s`: D\n- `0.52s-1.00s`: W\n- `1.00s-1.48s`: D\n- `1.48s-1.96s`: S\n- `1.96s-2.92s`: A\n- `2.92s-3.08s`: D"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.52s`: D\n- `0.52s-1.00s`: W\n- `1.00s-1.48s`: D\n- `1.48s-1.96s`: S\n- `1.96s-2.92s`: A\n- `2.92s-3.08s`: D"
+    },
+    {
+      "sample_id": "wasdonly_alpha1/05",
+      "scenario": "wasdonly_alpha1",
+      "case_id": "05",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasdonly_alpha1/05.mp4",
+      "generated_video": "data_subset/wasdonly_alpha1/05_wangame.mp4",
+      "preview_image": "data_subset/wasdonly_alpha1/05.jpg",
+      "action_path": "data_subset/wasdonly_alpha1/05_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "W"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 24,
+            "label": "A"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "D"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "S"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 72,
+            "label": "D"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "S"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: W\n- `0.04s-1.00s`: A\n- `1.00s-1.48s`: D\n- `1.48s-1.96s`: S\n- `1.96s-2.92s`: D\n- `2.92s-3.08s`: S"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: W\n- `0.04s-1.00s`: A\n- `1.00s-1.48s`: D\n- `1.48s-1.96s`: S\n- `1.96s-2.92s`: D\n- `2.92s-3.08s`: S"
+    },
+    {
+      "sample_id": "wasdonly_alpha1/06",
+      "scenario": "wasdonly_alpha1",
+      "case_id": "06",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasdonly_alpha1/06.mp4",
+      "generated_video": "data_subset/wasdonly_alpha1/06_wangame.mp4",
+      "preview_image": "data_subset/wasdonly_alpha1/06.jpg",
+      "action_path": "data_subset/wasdonly_alpha1/06_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "S"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "A"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "S"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "A"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "S"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 76,
+            "label": "W"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, A\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: S\n- `0.04s-0.52s`: A\n- `0.52s-1.00s`: S\n- `1.00s-1.48s`: A\n- `1.48s-1.96s`: S\n- `1.96s-3.08s`: W"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, A\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: S\n- `0.04s-0.52s`: A\n- `0.52s-1.00s`: S\n- `1.00s-1.48s`: A\n- `1.48s-1.96s`: S\n- `1.96s-3.08s`: W"
+    },
+    {
+      "sample_id": "wasdonly_alpha1/07",
+      "scenario": "wasdonly_alpha1",
+      "case_id": "07",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasdonly_alpha1/07.mp4",
+      "generated_video": "data_subset/wasdonly_alpha1/07_wangame.mp4",
+      "preview_image": "data_subset/wasdonly_alpha1/07.jpg",
+      "action_path": "data_subset/wasdonly_alpha1/07_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "A"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "D"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "S"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "A"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 60,
+            "label": "D"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "S"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "A"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: A\n- `0.04s-0.52s`: D\n- `0.52s-1.00s`: S\n- `1.00s-1.48s`: A\n- `1.48s-2.44s`: D\n- `2.44s-2.92s`: S\n- `2.92s-3.08s`: A"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: A\n- `0.04s-0.52s`: D\n- `0.52s-1.00s`: S\n- `1.00s-1.48s`: A\n- `1.48s-2.44s`: D\n- `2.44s-2.92s`: S\n- `2.92s-3.08s`: A"
+    },
+    {
+      "sample_id": "wasdonly_alpha1/08",
+      "scenario": "wasdonly_alpha1",
+      "case_id": "08",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasdonly_alpha1/08.mp4",
+      "generated_video": "data_subset/wasdonly_alpha1/08_wangame.mp4",
+      "preview_image": "data_subset/wasdonly_alpha1/08.jpg",
+      "action_path": "data_subset/wasdonly_alpha1/08_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "D"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 60,
+            "label": "S"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "W"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "D"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: D\n- `0.04s-2.44s`: S\n- `2.44s-2.92s`: W\n- `2.92s-3.08s`: D"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: D\n- `0.04s-2.44s`: S\n- `2.44s-2.92s`: W\n- `2.92s-3.08s`: D"
+    },
+    {
+      "sample_id": "wasdonly_alpha1/09",
+      "scenario": "wasdonly_alpha1",
+      "case_id": "09",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasdonly_alpha1/09.mp4",
+      "generated_video": "data_subset/wasdonly_alpha1/09_wangame.mp4",
+      "preview_image": "data_subset/wasdonly_alpha1/09.jpg",
+      "action_path": "data_subset/wasdonly_alpha1/09_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "W",
+          "S",
+          "A"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 12,
+            "label": "W"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "S"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 60,
+            "label": "W"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 72,
+            "label": "S"
+          },
+          {
+            "start_frame": 73,
+            "end_frame": 76,
+            "label": "A"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, A\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.52s`: W\n- `0.52s-1.00s`: S\n- `1.00s-2.44s`: W\n- `2.44s-2.92s`: S\n- `2.92s-3.08s`: A"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** W, S, A\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.52s`: W\n- `0.52s-1.00s`: S\n- `1.00s-2.44s`: W\n- `2.44s-2.92s`: S\n- `2.92s-3.08s`: A"
+    },
+    {
+      "sample_id": "wasdonly_alpha1/10",
+      "scenario": "wasdonly_alpha1",
+      "case_id": "10",
+      "pair_mode": "reference_vs_wangame",
+      "left_label": "Reference (.mp4)",
+      "right_label": "Generated (WanGame)",
+      "reference_video": "data_subset/wasdonly_alpha1/10.mp4",
+      "generated_video": "data_subset/wasdonly_alpha1/10_wangame.mp4",
+      "preview_image": "data_subset/wasdonly_alpha1/10.jpg",
+      "action_path": "data_subset/wasdonly_alpha1/10_action.npy",
+      "reference_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "generated_video_meta": {
+        "width": 640,
+        "height": 352,
+        "avg_frame_rate": 25.0,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "nb_frames": 77
+      },
+      "action_summary": {
+        "n_frames": 77,
+        "fps": 25.0,
+        "duration_s": 3.08,
+        "used_keys": [
+          "S",
+          "A",
+          "D"
+        ],
+        "mouse_pitch_values": [
+          0.0
+        ],
+        "mouse_yaw_values": [
+          0.0
+        ],
+        "control_mode": "keyboard-only",
+        "segments": [
+          {
+            "start_frame": 0,
+            "end_frame": 0,
+            "label": "S"
+          },
+          {
+            "start_frame": 1,
+            "end_frame": 12,
+            "label": "A"
+          },
+          {
+            "start_frame": 13,
+            "end_frame": 24,
+            "label": "S"
+          },
+          {
+            "start_frame": 25,
+            "end_frame": 36,
+            "label": "D"
+          },
+          {
+            "start_frame": 37,
+            "end_frame": 48,
+            "label": "S"
+          },
+          {
+            "start_frame": 49,
+            "end_frame": 60,
+            "label": "A"
+          },
+          {
+            "start_frame": 61,
+            "end_frame": 76,
+            "label": "S"
+          }
+        ],
+        "markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: S\n- `0.04s-0.52s`: A\n- `0.52s-1.00s`: S\n- `1.00s-1.48s`: D\n- `1.48s-1.96s`: S\n- `1.96s-2.44s`: A\n- `2.44s-3.08s`: S"
+      },
+      "action_markdown": "**Action summary:** 77 action steps | 25.00 FPS | ~3.08s\n**Inferred control mode:** keyboard-only\n**Keys used:** S, A, D\n**Mouse values:** pitch=[+0.0] | yaw=[+0.0]\n\n**Timeline**\n- `0.00s-0.04s`: S\n- `0.04s-0.52s`: A\n- `0.52s-1.00s`: S\n- `1.00s-1.48s`: D\n- `1.48s-1.96s`: S\n- `1.96s-2.44s`: A\n- `2.44s-3.08s`: S"
+    }
+  ],
+  "warnings": []
+}
