@@ -32,14 +32,6 @@ It follows the current dataset shape first and does not add physics or causality
   - click `Flag artifact`
 - Saves annotations to `arena/results/annotations.jsonl`.
 
-## Files
-
-- `app.py`: Gradio UI
-- `build_manifest.py`: dataset scanner and manifest writer
-- `dataset.py`: manifest loading and path resolution
-- `actions.py`: action parsing and formatting
-- `result_logger.py`: JSONL logging
-
 ## How to run
 
 Install the minimal dependencies in your Python environment:
@@ -77,24 +69,3 @@ Or with an environment variable:
 ```bash
 ARENA_DISABLE_WRITES=1 python arena/app.py
 ```
-
-## Limitations and ambiguities
-
-- The current dataset naturally supports a fixed reference-vs-WanGame A/B pair, not a blinded model-vs-model arena.
-- `.jpg` files look like aligned preview stills, but none of the relevant `ptlflow` evaluation scripts consume them. The app surfaces them only as metadata.
-- `*_action.npy` contains `keyboard` `(T, 6)` and `mouse` `(T, 2)` arrays. The keyboard order is inferred from `ptlflow/action_flow_score.py` as `[W, S, A, D, left, right]`, and mouse order as `[pitch, yaw]`.
-- In this subset, the `left` and `right` keyboard channels exist in the format but appear unused.
-- Gradio’s stock video components do not provide a reliable cross-player live timestamp callback, so artifact flagging uses a documented manual timestamp fallback.
-- The two video players are independent and not synchronized.
-- If you deploy to Hugging Face Spaces, free storage is ephemeral. Local JSONL annotations are fine for local runs, but not a durable collection backend for a public deployment.
-
-## If physics / causality tags are added later
-
-- Extend the JSONL schema in `result_logger.py` with new tag fields.
-- Add new controls in `app.py`; the manifest format does not need to change for simple extra labels.
-- If the future setup compares multiple generated videos instead of reference vs generated, change the manifest schema first so samples can carry arbitrary candidate lists instead of the current fixed left/right pair.
-
-## Spaces note
-
-- `app.py` reads `GRADIO_SERVER_NAME` and `GRADIO_SERVER_PORT`, so it is safe to run on Hugging Face Spaces.
-- If you want the published app to be review-only for now, set `ARENA_DISABLE_WRITES=1`.
